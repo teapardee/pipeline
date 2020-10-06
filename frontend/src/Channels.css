@@ -1,0 +1,141 @@
+/* CHANNEL LIST */
+
+
+.headercontainer {
+  display: grid;
+  grid-template-columns: 35% 5% 5% 5% 10% 10% 10% 10% 10%;
+  grid-template-rows: 30px 20px;
+  
+}
+
+.headertext {
+  text-align: center;
+  letter-spacing: 2px;
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  color: black;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  border-bottom: 1px solid black;
+  
+}
+
+.headerfirstrow {
+  grid-row: 1/2;
+}
+
+.headersecondrow{
+  grid-row: 2/2;
+}
+
+.headersource{
+  grid-column:2/5;
+  border-bottom: .5px solid black;
+  margin: 5px;
+}
+
+.headercategory{
+  grid-column:7/9;
+  border-bottom: .5px solid black;
+  margin: 5px;
+}
+
+div.listbox a {
+  color:black;
+  text-decoration: none !important;
+}
+
+/* LIST - BODY */
+
+.listbox {
+  display: grid;
+  grid-template-columns: 35% 5% 5% 5% 10% 10% 10% 10% 10%;
+  grid-template-rows: 25px;
+}
+
+.listboxtext {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: bold; 
+  color: black;
+  font-size: 11px;
+  letter-spacing: 0px;
+  text-decoration: none;
+}
+
+.listbox:hover {
+  background-color: rgba(61, 152, 255, .1);
+  color: white;
+}
+
+.listboxevent:hover {
+  border: 1px solid rgba(61, 152, 255, .25);
+  box-sizing: border-box;
+  color: rgba(61, 152, 255, 1);
+  box-shadow: 0 2px 6px 0
+  hsla(0, 0%, 0%, 0.2);
+}
+
+
+.listboxgeneral:hover {
+  border: 1px solid rgba(61, 152, 255, .25);
+  box-sizing: border-box;
+  color: rgba(61, 152, 255, 1);
+  box-shadow: 0 2px 6px 0
+  hsla(0, 0%, 0%, 0.2);
+}
+
+.youtube {
+  display: flex;
+  background: transparent url(youtube.png) no-repeat;
+  background-repeat: no-repeat;
+  background-size: 20%;
+  background-position:center;
+}
+.twitter {
+  display: flex;
+  background: transparent url(twitter.png) no-repeat;
+  background-repeat: no-repeat;
+  background-size: 20%;
+  background-position:center;
+}
+.other {
+  display: flex;
+  background: transparent url(other.png) no-repeat;
+  background-repeat: no-repeat;
+  background-size: 25%;
+  background-position:center;
+}
+
+.headerboxtext {
+  letter-spacing: 2px;
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  color: black;
+  font-size: 11px;
+  letter-spacing: 0px;
+  text-decoration: none;
+  justify-content: center;
+}
+
+
+.listboxevent {
+  grid-column: 1/2;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 25px;
+  padding-left: 10px;
+  font-size: 10px;
+}
+.listboxgeneral {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+  font-size: 10px;
+}
+
+.gridcontainer {
+  margin:50px
+}
