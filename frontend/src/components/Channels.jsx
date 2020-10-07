@@ -72,7 +72,7 @@ thumbnailNeeded = (e) =>  {
     ));
     return (
       <div>
-        <div className='gridcontainer'></div>
+        
         <div className='gridcontainer'>
         <div className='headercontainer headertext'>
  

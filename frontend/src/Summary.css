@@ -1,0 +1,52 @@
+.summary-maincontainer {
+  display: inline-block;
+  grid-row-start: 2;
+  grid-row-end: 5;
+  grid-column: 2/55;
+}
+
+.title-container {
+  display: inline-flex;
+  height: 80px;
+}
+
+.titlebox {
+  display: flex;
+  background-color: white;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: flex-start;
+  font-family: 'Overpass', sans-serif;
+  color: rgba(52, 73, 94, 1);
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  box-shadow: 0 2px 6px 0 hsla(0, 0%, 0%, 0.2);
+  height: 50px;
+  width: 942px;
+  margin: 15px;
+  margin-left: 0px;
+  padding-left: 25px;
+
+  transform: translateX(0%);
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+  background: white url(tesla.png) no-repeat;
+  background-repeat: no-repeat;
+  background-size: 75%;
+  background-position: center;
+  box-shadow: 0 2px 6px 0 hsla(0, 0%, 0%, 0.2);
+  margin: 15px;
+}
+
+.boxes {
+  background-color: white;
+  box-shadow: 0 2px 6px 0 hsla(0, 0%, 0%, 0.2);
+  height: 500px;
+  width: 500px;
+  margin: 15px;
+  margin-top: 0px;
+}

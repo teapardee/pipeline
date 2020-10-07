@@ -1,0 +1,6 @@
+.body-grid {
+  display: grid;
+  grid-template-columns: 12.5% 1fr 1fr;
+  grid-template-rows: 1% 50px 5000px 1fr 1fr;
+  background-color: #fafafb;
+}
